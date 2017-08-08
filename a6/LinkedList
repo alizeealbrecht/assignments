@@ -1,0 +1,16 @@
+public concrete class LinkedList extends ALinkedList {
+  public String data;
+  
+  @Override
+  public LinkedList extract (int start, int end){
+     //Code to copy the current linked list Nodes into a duplicate list. CHANGE IT TO WORK
+  public Node copy() {
+  Node copy = new Node (data);
+  if (next != null){
+    copy.next = next.copy();
+    }
+  }
+  //delete every element in current linked list recursively
+  
+  }
+}
